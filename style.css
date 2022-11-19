@@ -20,6 +20,7 @@ body{
 a{
     text-decoration: none;
 }
+/* header box section*/
 
 #header-block{
     background-color: var(--dark);
@@ -65,7 +66,33 @@ a{
     background-color: grey;
 }
 
+/*info box section*/
+
+#card-block{
+    text-align: center;
+    min-height: 400px;
+}
+#card-title{
+    margin: 30px 0;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-square{
+    height:150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid var(--blue);
+}
+.card-text{
+    max-width: 150px;
+}
 /* color classes */
+.dark{
+    color: var(--dark);
+}
 .white{
     color: var(--white);
 }
