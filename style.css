@@ -1,0 +1,13 @@
+/* dev, debugging stuff */
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+
+/* actual css */
+
+body{
+    display: flex;
+}
