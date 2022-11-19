@@ -6,8 +6,50 @@
     background-color: orange;
 }
 
-/* actual css */
+:root{
+    --dark: #1F2937;
+    --white: #F9FAF8;
+    --grey: #E5E7EB;
+    --blue: #3882F6;
+}
 
-body{
-    display: flex;
+#header-block{
+    background-color: var(--dark);
+}
+
+a{
+    text-decoration: none;
+}
+
+#hero-button{
+    background-color: var(--blue);
+    border-radius: 8px;
+}
+.white{
+    color: var(--white);
+}
+.grey{
+    color: var(--grey);
+}
+
+/* font styling classes */
+
+.xbold{
+    font-weight: 800;
+}
+
+.fs18{
+    font-size: 18px;
+}
+
+.fs24{
+    font-size: 24px;
+}
+
+.fs36{
+    font-size: 36px;
+}
+
+.fs48{
+    font-size: 48px;
 }
