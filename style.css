@@ -39,13 +39,15 @@ button{
     justify-content: space-between;
     align-items: center;
     flex: 1 0 auto;
+    padding: 0;
+    margin: 0;
 }
 #hero-message, #hero-image{
     flex: 1;
 }
 #hero-box{
     display: flex;
-    gap: 50px;
+    gap: 100px;
 }
 #hero-message{
     display: flex;
